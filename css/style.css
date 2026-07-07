@@ -104,3 +104,58 @@ grid-template-columns:repeat(2,1fr);
 }
 
 }
+
+#itemTable{
+width:100%;
+border-collapse:collapse;
+margin-top:15px;
+font-size:14px;
+}
+
+#itemTable th{
+background:#ff0066;
+color:white;
+padding:10px;
+}
+
+#itemTable td{
+padding:10px;
+border-bottom:1px solid #eee;
+text-align:center;
+}
+
+.actionBtn{
+padding:6px 10px;
+border:none;
+border-radius:6px;
+margin:2px;
+cursor:pointer;
+}
+
+.editBtn{
+background:#2196F3;
+color:white;
+}
+
+.deleteBtn{
+background:#F44336;
+color:white;
+}
+
+.soldBtn{
+background:#4CAF50;
+color:white;
+}
+
+@media(max-width:768px){
+
+#itemTable{
+font-size:12px;
+}
+
+#itemTable th,
+#itemTable td{
+padding:6px;
+}
+
+}
